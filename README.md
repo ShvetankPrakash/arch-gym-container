@@ -1,4 +1,4 @@
-# Docker Image for ArchgGym
+# Docker Image for ArchGym
 This repository hosts the latest Docker image for [ArchGym](https://github.com/srivatsankrishnan/oss-arch-gym) along with the Dockerfile.
 
 The last image was built on October 13, 2023 for [MICRO 2023](https://sites.google.com/g.harvard.edu/micro23-maad-tutorial/home) and can be pulled using the following:
