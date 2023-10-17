@@ -48,9 +48,9 @@ RUN /bin/bash -c "source /home/ArchGym/miniconda/etc/profile.d/conda.sh && \
                  conda init && \
                  conda activate base && \
                  conda activate arch-gym && \
-                 pip install .[tf,testing,envs] && \
+                 pip install .[tf,testing,envs,jax] && \
                  pip install . "
-#RUN pip install .[tf,testing,envs,jax]
+
 ENV LD_LIBRARY_PATH=/home/ArchGym/miniconda/envs/arch-gym/lib:$LD_LIBRARY_PATH
 
 
